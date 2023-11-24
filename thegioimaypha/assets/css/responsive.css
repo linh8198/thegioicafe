@@ -55,7 +55,7 @@
     .header-main__shearch label {
 
         opacity: 1;
-        padding: 12px 16px;
+        padding: 16px 16px;
         background-color: var(--main-color);
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
@@ -104,11 +104,16 @@
     }
 
     .list-category-slider {
+        width: 440px;
         transform: scale(0.7);
         -webkit-transform: scale(0.7);
         -moz-transform: scale(0.7);
         -ms-transform: scale(0.7);
         -o-transform: scale(0.7);
+    }
+
+    .gift {
+        padding: 10px;
     }
 
     .gift .title-gift {
@@ -147,7 +152,11 @@
 
 }
 
-
+@media (max-width: 420px) {
+    .list-category-slider {
+        width: 300px;
+    }
+}
 
 
 /* PC */
