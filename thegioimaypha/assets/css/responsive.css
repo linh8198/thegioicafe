@@ -104,6 +104,7 @@
     }
 
     .list-category-slider {
+        padding: 0;
         width: 440px;
         transform: scale(0.7);
         -webkit-transform: scale(0.7);
