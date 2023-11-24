@@ -205,7 +205,8 @@ let myInterval = function (aa) {
         }
         aa--
         b = aa
-        doiTac.style = `transform: translateX(${aa / 40}%)`
+        // doiTac.style = `transform: translateX(${aa / 40}%)`
+        doiTac.style = `left: ${aa / 40}%`
     }, 1)
 
 }

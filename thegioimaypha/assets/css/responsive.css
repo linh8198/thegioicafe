@@ -110,6 +110,41 @@
         -ms-transform: scale(0.7);
         -o-transform: scale(0.7);
     }
+
+    .gift .title-gift {
+
+        font-size: 1.6rem;
+
+    }
+
+    .gift .input-sdt input {
+        width: 300px;
+
+    }
+
+    .frame__seemore {
+        padding: 5px 50px;
+    }
+
+    .content-area {
+        padding: 0;
+    }
+
+    .khung-doi-tac {
+        transform: scale(.7);
+        -webkit-transform: scale(.7);
+        -moz-transform: scale(.7);
+        -ms-transform: scale(.7);
+        -o-transform: scale(.7);
+    }
+
+    .infor-company,
+    .text-footer,
+    .tu-van {
+        padding: 0 10px;
+    }
+
+
 }
 
 
