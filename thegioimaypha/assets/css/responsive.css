@@ -128,8 +128,13 @@
 
     }
 
+    .frame-content {
+        padding-bottom: 10px;
+    }
+
     .frame__seemore {
         padding: 5px 50px;
+        margin: 10px 0;
     }
 
     .content-area {
