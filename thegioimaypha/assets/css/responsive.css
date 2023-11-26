@@ -24,6 +24,11 @@
     .gift .input-sdt button {
         line-height: 21px;
     }
+
+    .phan-tram {
+        font-size: 2.5vw;
+        top: -3.2vw;
+    }
 }
 
 /* mobile and tablet */
@@ -155,13 +160,37 @@
         padding: 0 10px;
     }
 
+    .phan-tram {
+        font-size: 30px;
+        top: -38px;
+        right: 13px;
+        /* font-size: 2.5vw;
+        top: -3.2vw; */
+    }
 
+}
+
+@media (max-width: 557px) {
+    .phan-tram {
+        font-size: 24px;
+        top: -32px;
+        right: 5px;
+        /* font-size: 2.5vw;
+        top: -3.2vw; */
+    }
 }
 
 @media (max-width: 420px) {
     .list-category-slider {
         width: 300px;
     }
+
+    .phan-tram {
+        font-size: 20px;
+        top: -20px;
+
+    }
+
 }
 
 
